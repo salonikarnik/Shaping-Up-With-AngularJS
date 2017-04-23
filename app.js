@@ -5,8 +5,11 @@
 
 (function(){
     var app=angular.module('store',['store-products']);
+
     app.controller('StoreController',function(){
         this.products=gems;
+
+
     });
 
     var gems=[

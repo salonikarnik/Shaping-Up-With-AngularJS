@@ -29,7 +29,7 @@
             <blockquote>
                 <b>Stars: {{reviewCtrl.review.stars}}</b>
                 {{reviewCtrl.review.body}}
-                <cite> - {{reviewCtrl.review.author}} on {{reviewCtrl.review.createdOn}} </cite>
+                <cite> - {{reviewCtrl.review.author}} on {{reviewCtrl.review.createdOn|date}} </cite>
             </blockquote>
             <select ng-model="reviewCtrl.review.stars" required>
                 <option value="1">1 star</option>
